@@ -7,7 +7,10 @@ var tmp;
 for(let i=0;i<2698;i++){
 	document.getElementById("test").innerHTML=`images...`;
 image.push(new Image());
-string=`${i+1}-.png`
+string=`${i+1}-.png` /*
+copies image path of the i-th frame of bad apple, with a starting index of 1. 
+Imagine the repo contains all 2698 frames as individual pngs.
+*/
 image[i].src = string;
 }
 document.getElementById("test").innerHTML=`stuff...`;
